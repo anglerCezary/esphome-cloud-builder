@@ -1,4 +1,5 @@
-# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie Ona https://ona.com/stories/gitpod-is-now-ona
+# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie Ona
+https://ona.com/stories/gitpod-is-now-ona
 
 
 To repozytorium udostępnia **ESPHome Dashboard działający w całości w przeglądarce**, uruchamiany w **Ona (dawniej Gitpod)**
