@@ -4,26 +4,24 @@ https://ona.com/stories/gitpod-is-now-ona
 
 To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod)**
 
-**łatwo możesz wybrać konkretną wersją wydania ESPHome w obrazie Docker edytując plik docker- lub konwersując z LLM, który zmieni to za Ciebie**.
+**Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml lub chatując z asystentem AI, który zmieni to za Ciebie w kodzie**.
 
-Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, niezależnych od przyszłych aktualizacji ESPHome.
+Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który może być za słaby.
 
 ---
 
 ## 🤔 Co to jest platforma Ona (dawniej Gitpod)?
 
-**platforma Ona Gitpod to taki komputer dla w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI**
-
-
+**platforma Ona Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI**
 
 Wyobraź sobie, że:
 - Klikasz link w przeglądarce
-- Dostajesz gotowy do użycia komputer z zainstalowanym ESPHome
+- Dostajesz gotowy do użycia komputer z zainstalowanym ESPHome Device Builder
 - Kompilujesz firmware bez instalowania czegokolwiek na swoim komputerze
-- Wszystko działa w przeglądarce (Chrome, Firefox, Edge)
+- Wszystko działa w przeglądarce (Chrome, Firefox, Edge) 
 
 **Nie musisz:**
-- ❌ Instalować ESPHome na swoim komputerze
+- ❌ Instalować ESPHome na swoim komputerze, cza też mieć Homa Assistant
 - ❌ Instalować Pythona, Docker, czy innych narzędzi
 - ❌ Martwić się o system operacyjny (działa na Windows, Mac, Linux, ChromeOS)
 - ❌ Mieć mocnego komputera (kompilacja odbywa się w chmurze)
@@ -41,8 +39,8 @@ To jak mieć **tymczasowy komputer do wynajęcia za darmo**, który znika po zak
 
 - ESPHome uruchamiany jest wewnątrz oficjalnego kontenera Docker
 - Obraz kontenera jest przypięty do **konkretnej wersji ESPHome**
-- Gitpod automatycznie uruchamia kontener
-- ESPHome Dashboard jest dostępny w przeglądarce internetowej
+- ONA/Gitpod automatycznie uruchamia kontener z przypisanym portem 6052
+- ESPHome Dashboard jest dostępny w przeglądarce internetowej 
 - Firmware kompilowany jest **w całości w chmurze**
 
 Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do internetu.
@@ -67,9 +65,11 @@ https://gitpod.io/#https://github.com/Cezar8421/esphome-gitpod
 Gitpod automatycznie:
 - Pobierze obraz Docker z ESPHome
 - Uruchomi kontener
-- Otworzy ESPHome Dashboard w przeglądarce
+- Pozwoli na otwarcie strony z ESPHome Dashboard w przeglądarce pod wskazanym portem
 
-### 3. Dodaj swoją konfigurację YAML
+#### 3. Dodaj posiadane już pliki YAML do katalogu `esphome/`.
+
+Lub
 
 Utwórz nowy plik w katalogu `esphome/`, np. `esphome/moj-esp32.yaml`:
 
@@ -91,6 +91,7 @@ api:
 
 ota:
 ```
+Korzystając z narzędzi deweloperskich platformy 
 
 ### 4. Skompiluj firmware
 
@@ -103,9 +104,9 @@ ota:
 
 ## ⚠️ Ważne ograniczenia
 
-### 🚫 Flashowanie NIE JEST MOŻLIWE bezpośrednio z Gitpod
+### 🚫 Flashowanie NIE JEST MOŻLIWE bezpośrednio z ONA (Gitpod)
 
-**Gitpod działa w chmurze** i **nie ma dostępu** do:
+**ONA/Gitpod działa w chmurze** i **nie ma dostępu** do:
 - Twoich lokalnych portów USB (gdzie podłączasz ESP32/ESP8266)
 - Twojej sieci lokalnej (gdzie działają urządzenia ESP po WiFi)
 
@@ -150,7 +151,7 @@ image: ghcr.io/esphome/esphome:2025.12.2
 Dzięki temu:
 - ✅ Kompilacje są **powtarzalne**
 - ✅ Nie ma niespodzianek po aktualizacjach ESPHome
-- ✅ Wszystkie osoby używające tego repo dostaną **identyczny firmware**
+- ✅ Możesz powrócić do starszych wydań dla **identyczny firmware**
 
 ### Jak zaktualizować wersję ESPHome
 
@@ -163,7 +164,7 @@ Dzięki temu:
 ## 💡 Dla kogo jest to rozwiązanie
 
 ### ✅ Idealne dla:
-- Osób ze **słabym sprzętem** (kompilacja w chmurze)
+- Osób ze **słabym sprzętem** (kompilacja w chmurze) - 
 - Kompilacji na **Chromebooku** lub **tablecie**
 - Uczenia się ESPHome bez instalacji
 - Walidacji konfiguracji YAML
