@@ -1,4 +1,4 @@
-# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie ###ONA
+# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie ### ONA
 https://ona.com/stories/gitpod-is-now-ona
 
 
