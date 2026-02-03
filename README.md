@@ -27,4 +27,4 @@ Ten projekt **NIE używa obrazów `latest` ani `stable`**.
 Zamiast tego wersja ESPHome jest jawnie określona w pliku `docker-compose.yml`, np.:
 
 ```yaml
-image: ghcr.io/esphome/esphome:2025.5.0
+image: ghcr.io/esphome/esphome:2025.12.2
