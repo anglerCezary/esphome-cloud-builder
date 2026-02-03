@@ -1,4 +1,11 @@
+# ESPHome configs i build artifacts
 esphome/.esphome/
 esphome/secrets.yaml
 esphome/**/*.bin
 esphome/**/*.elf
+esphome/**/*.firmware.bin
+
+# Gitpod/VS Code
+.gitpod/
+.vscode/settings.json
+devcontainer.json
