@@ -1,4 +1,4 @@
-# ESPHome Dashboard w dowolnej wersji wydania dzięki Ona <img width="946" height="2000" alt="image" src="https://github.com/user-attachments/assets/0182b3fd-306d-4557-9164-2ed8ef117905" />
+# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie Ona https://ona.com/stories/gitpod-is-now-ona
 
 
 To repozytorium udostępnia **ESPHome Dashboard działający w całości w przeglądarce**, uruchamiany w **Ona (dawniej Gitpod)**
