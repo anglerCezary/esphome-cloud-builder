@@ -6,7 +6,7 @@ Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, nieza
 
 ---
 
-## 🤔 Co to jest Gitpod? (dla laików)
+## 🤔 Co to jest Gitpod?
 
 **Gitpod to darmowy komputer w chmurze, który działa w przeglądarce.**
 
