@@ -8,6 +8,7 @@ ports:
 tasks:
   - name: Start ESPHome Dashboard
     init: |
+      mkdir -p esphome && touch esphome/.gitkeep
       docker compose pull
     command: |
-      docker compose up
+      docker compose up -d
