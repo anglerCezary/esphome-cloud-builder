@@ -1,4 +1,4 @@
-# ESPHome Dashboard w Gitpod/Ona z wyborem wersji
+# ESPHome Dashboard w Ona z wyborem wersji
 
 To repozytorium udostępnia **ESPHome Dashboard działający w całości w przeglądarce**, uruchamiany w **Ona (Gitpod)**, z **jawnie przypiętą wersją ESPHome w obrazie Docker**.
 
