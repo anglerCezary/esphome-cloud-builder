@@ -25,7 +25,7 @@ This project **does NOT use `latest` or `stable` images**.
 Instead, ESPHome is pinned explicitly in `docker-compose.yml`, for example:
 
 ```yaml
-image: ghcr.io/esphome/esphome:2025.12.2
+
 ---
 
 # ESPHome Dashboard w Gitpod (przypięta wersja)
