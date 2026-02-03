@@ -164,11 +164,10 @@ Dzięki temu:
 ## 💡 Dla kogo jest to rozwiązanie
 
 ### ✅ Idealne dla:
-- Osób ze **słabym sprzętem** (kompilacja w chmurze) - 
+- Osób ze **słabym sprzętem** (kompilacja w chmurze) - 4 cores, 16GB RAM, 80GB disk
 - Kompilacji na **Chromebooku** lub **tablecie**
 - Uczenia się ESPHome bez instalacji
 - Walidacji konfiguracji YAML
-- Współpracy zespołowej (wszyscy używają tej samej wersji)
 
 ### ❌ NIE zastąpi:
 - Bezpośredniego flashowania urządzeń (potrzebujesz dodatkowo ESP_Flasher lub podobne narzędzie)
@@ -176,46 +175,13 @@ Dzięki temu:
 
 ---
 
-## 🕐 Limity Gitpod
-
-**Plan darmowy:**
-- 50 godzin workspace/miesiąc
-- 4 równoległe workspace
-
-**Plan Pro:**
-- 100 godzin/miesiąc
-
-Kompilacja pojedynczego firmware zwykle zajmuje **2-5 minut**, więc spokojnie zmieścisz się w limicie.
-
----
-
-## 🗂️ Struktura projektu
-
-```
-esphome-gitpod/
-├── .gitpod.yml              # Konfiguracja Gitpod
-├── docker-compose.yml       # Definicja kontenera ESPHome
-├── README.md                # Ten plik
-└── esphome/                 # Katalog na twoje konfiguracje YAML
-    └── .gitkeep             # (pusty plik do utrzymania katalogu w git)
-```
-
----
-
 ## 🛠️ Rozwiązywanie problemów
 
 ### Dashboard się nie otwiera automatycznie
-- Sprawdź zakładkę "Ports" w Gitpod
-- Kliknij na port `6052` aby otworzyć ręcznie
-
 ### Kompilacja się nie udaje
-- Sprawdź składnię YAML w dashboard (kliknij "VALIDATE")
-- Upewnij się, że używasz kompatybilnej wersji składni dla ESPHome 2025.12.2
-
 ### Chcę użyć nowszej wersji ESPHome
-- Edytuj `docker-compose.yml`
-- Zmień `2025.12.2` na wybraną wersję
-- Zrestartuj workspace
+
+## Zapytaj AI na czacie, napewno podpowie co zmienić
 
 ---
 
@@ -228,4 +194,4 @@ MIT License - używaj swobodnie!
 ## 🙏 Podziękowania
 
 - [ESPHome](https://esphome.io) - za świetne narzędzie
-- [Gitpod](https://gitpod.io) - za darmowe środowisko developerskie w chmurze
+- [ONA]([https://gitpod.io](https://ona.com/docs/ona/getting-started)) - za darmowe środowisko developerskie w chmurze
