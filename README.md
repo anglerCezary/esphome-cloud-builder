@@ -8,9 +8,8 @@ Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, nieza
 
 ## 🤔 Co to jest platforma Ona (dawniej Gitpod)?
 
-**platforma Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce.**
+**platforma Ona Gitpod to taki komputer dla w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI**
 
-**a Ona od niedawna dokłada wsparcie AI.**
 
 
 Wyobraź sobie, że:
@@ -39,10 +38,10 @@ To jak mieć **tymczasowy komputer do wynajęcia za darmo**, który znika po zak
 - ESPHome uruchamiany jest wewnątrz oficjalnego kontenera Docker
 - Obraz kontenera jest przypięty do **konkretnej wersji ESPHome**
 - Gitpod automatycznie uruchamia kontener
-- ESPHome Dashboard jest dostępny w przeglądarce
+- ESPHome Dashboard jest dostępny w przeglądarce internetowej
 - Firmware kompilowany jest **w całości w chmurze**
 
-Nie jest wymagana żadna lokalna instalacja ESPHome.
+Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do internetu.
 
 ---
 
