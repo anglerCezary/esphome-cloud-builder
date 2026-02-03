@@ -1,4 +1,5 @@
-# ESPHome Device Builder w dowolnej wersji wydania dzięki platformie ONA
+# ESPHome Cloud Builder 
+## W dowolnej wersji wydania dzięki platformie ONA
 https://ona.com/stories/gitpod-is-now-ona
 
 
