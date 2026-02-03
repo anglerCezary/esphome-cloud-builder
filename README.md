@@ -1,10 +1,10 @@
-# ESPHome Dashboard w dowolnej wersji wydania dzięki platformie ### ONA
+# ESPHome Device Builder w dowolnej wersji wydania dzięki platformie ONA
 https://ona.com/stories/gitpod-is-now-ona
 
 
-To repozytorium udostępnia **ESPHome Dashboard działający w całości w przeglądarce**, uruchamiany w **Ona (dawniej Gitpod)**
+To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod)**
 
-**jawnie przypiętą wersją ESPHome w obrazie Docker**.
+**łatwo możesz wybrać konkretną wersją wydania ESPHome w obrazie Docker edytując plik docker- lub konwersując z LLM, który zmieni to za Ciebie**.
 
 Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, niezależnych od przyszłych aktualizacji ESPHome.
 
