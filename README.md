@@ -9,7 +9,11 @@ Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, nieza
 ## 🤔 Co to jest Ona dawniej Gitpod?
 
 **platforma Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce.**
-<img width="857" height="529" alt="image" src="https://github.com/user-attachments/assets/3bae99ec-2d70-4e08-a825-518702e9d159" />
+Small
+
+2 vCPU / 8 GiB / 50 GiB disk • m6i.large
+
+Delete "Small" environment class
 
 Wyobraź sobie, że:
 - Klikasz link w przeglądarce
