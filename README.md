@@ -6,9 +6,10 @@ Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, nieza
 
 ---
 
-## 🤔 Co to jest Gitpod?
+## 🤔 Co to jest Ona dawniej Gitpod?
 
-**Gitpod to darmowy komputer w chmurze, który działa w przeglądarce.**
+**platforma Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce.**
+<img width="857" height="529" alt="image" src="https://github.com/user-attachments/assets/3bae99ec-2d70-4e08-a825-518702e9d159" />
 
 Wyobraź sobie, że:
 - Klikasz link w przeglądarce
@@ -45,7 +46,7 @@ Nie jest wymagana żadna lokalna instalacja ESPHome.
 
 ## 📖 Jak używać
 
-### 1. Uruchom środowisko w Gitpod
+### 1. Uruchom środowisko w Ona/Gitpod
 
 Kliknij poniższy przycisk lub otwórz link w przeglądarce:
 
