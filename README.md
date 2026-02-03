@@ -6,11 +6,11 @@ Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, nieza
 
 ---
 
-## 🤔 Co to jest Ona dawniej Gitpod?
+## 🤔 Co to jest platforma Ona (dawniej Gitpod)?
 
 **platforma Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce.**
-(Small - 2 vCPU / 8 GiB / 50 GiB disk)
 
+**a Ona od niedawna dokłada wsparcie AI.**
 
 
 Wyobraź sobie, że:
