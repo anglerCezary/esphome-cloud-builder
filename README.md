@@ -1,8 +1,33 @@
-# ESPHome Dashboard w Gitpod z wyborem wersji
+# ESPHome Dashboard w Gitpod (przypięta wersja)
 
 To repozytorium udostępnia **ESPHome Dashboard działający w całości w przeglądarce**, uruchamiany w **Gitpod**, z **jawnie przypiętą wersją ESPHome w obrazie Docker**.
 
 Celem jest zapewnienie **powtarzalnych i stabilnych kompilacji firmware**, niezależnych od przyszłych aktualizacji ESPHome.
+
+---
+
+## 🤔 Co to jest Gitpod? (dla laików)
+
+**Gitpod to darmowy komputer w chmurze, który działa w przeglądarce.**
+
+Wyobraź sobie, że:
+- Klikasz link w przeglądarce
+- Dostajesz gotowy do użycia komputer z zainstalowanym ESPHome
+- Kompilujesz firmware bez instalowania czegokolwiek na swoim komputerze
+- Wszystko działa w przeglądarce (Chrome, Firefox, Edge)
+
+**Nie musisz:**
+- ❌ Instalować ESPHome na swoim komputerze
+- ❌ Instalować Pythona, Docker, czy innych narzędzi
+- ❌ Martwić się o system operacyjny (działa na Windows, Mac, Linux, ChromeOS)
+- ❌ Mieć mocnego komputera (kompilacja odbywa się w chmurze)
+
+**Wystarczy:**
+- ✅ Przeglądarka internetowa
+- ✅ Darmowe konto na Gitpod (logowanie przez GitHub/GitLab/Bitbucket)
+- ✅ Połączenie z internetem
+
+To jak mieć **tymczasowy komputer do wynajęcia za darmo**, który znika po zakończeniu pracy.
 
 ---
 
