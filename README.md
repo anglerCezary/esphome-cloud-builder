@@ -1,5 +1,5 @@
 # ESPHome Cloud Builder 
-## Kompiluj przez w chmurze dla dowolnej wersji wydania, dzięki platformie ONA
+## Kompiluj w chmurze dla dowolnej wersji wydania, dzięki platformie ONA
 https://ona.com/stories/gitpod-is-now-ona
 
 
