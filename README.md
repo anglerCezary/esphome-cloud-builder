@@ -159,7 +159,7 @@ Po pobraniu pliku `.bin` z Gitpod, flashowanie wykonaj lokalnie jedną z metod:
 4. Wybierz pobrany plik `.bin`
 5. Kliknij "Flash ESP"
 
-**Zalety:** graficzny interfejs, nie wymaga instalacji Pythona, automatyczna detekcja portów
+**Zalety:** graficzny interfejs, nie wymaga instalacji Pythona, automatyczna detekcja portów, monitor portu szeregwego)
 
 #### Metoda 3: esptool.py (dla zaawansowanych)
 ```bash
