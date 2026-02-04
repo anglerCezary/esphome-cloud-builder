@@ -190,14 +190,32 @@ Dzięki temu:
 ### Zapytaj AI na czacie jaśli napotkasz inne problemy (błędy kompilacji, skłądni kodu). Podpowie co należy zmienić.
 
 ---
+**MIT License** - używaj swobodnie!
 
-## 📝 Licencja
+Co to znaczy:
+- ✅ Możesz używać, kopiować, modyfikować
+- ✅ Możesz używać komercyjnie
+- ✅ Wystarczy zachować informację o autorze
+- ❌ Brak gwarancji - używasz na własną odpowiedzialność
 
-MIT License - używaj swobodnie!
+Pełna licencja: https://opensource.org/licenses/MIT
+---
+## 📚 Dodatkowe zasoby
+
+- **Dokumentacja ESPHome:** https://esphome.io
+- **Przykłady konfiguracji:** https://esphome.io/guides/
+- **Forum społeczności:** https://community.home-assistant.io/c/esphome
+- **Forum społeczności PL:** https://forum.arturhome.pl/
+- **Dokumentacja Ona:** https://ona.com/docs
+- **ESP_Flasher:** https://github.com/Jason2866/ESP_Flasher
 
 ---
 
 ## 🙏 Podziękowania
 
-- [ESPHome](https://esphome.io) - za świetne narzędzie
-- [ONA]([https://gitpod.io](https://ona.com/docs/ona/getting-started)) - za darmowe środowisko developerskie w chmurze
+- **[ESPHome Team](https://esphome.io)** - za fantastyczne narzędzie do programowania ESP32/ESP8266
+- **[Ona](https://ona.com)** (dawniej Gitpod) - za darmową platformę cloud development z AI
+- **[Jason2866](https://github.com/Jason2866/ESP_Flasher)** - za ESP_Flasher
+- **Społeczność ESPHome i Home Assistant** - za nieustającą pomoc w duchu open sorce
+
+---
