@@ -5,7 +5,9 @@ https://ona.com/stories/gitpod-is-now-ona
 
 To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod).**
 
-**Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml lub czatując z asystentem AI, który zmieni to za Ciebie w locie.**
+**Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml.**
+
+**Możesz konwersować z asystentem AI, który zmieni to za Ciebie w locie.**
 
 Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który już Cię nie ograniczy.
 
@@ -93,7 +95,7 @@ api:
 
 ota:
 ```
-Możesz korzystając z narzędzi wielu deweloperskich platformy.
+Możesz w trakcie korzystając narzędzi deweloperskich platformy.
 
 ### 4. Skompiluj firmware
 
@@ -103,7 +105,33 @@ Możesz korzystając z narzędzi wielu deweloperskich platformy.
 - Pobierz plik `.bin` na swój komputer
 
 ---
+## 📌 Przypięcie wersji ESPHome (WAŻNE)
 
+Ten projekt **NIE używa obrazów `latest` ani `stable`**.
+
+Zamiast tego wersja ESPHome jest jawnie określona w pliku `docker-compose.yml`:
+
+```yaml
+image: ghcr.io/esphome/esphome:2025.12.2
+```
+## 👥 Nie czujesz się na siłach? Nic nie szkodzi, napisz do asystenta AI co ma zrobić za Ciebie:
+
+
+
+Dzięki temu:
+- ✅ Kompilacje są **powtarzalne**
+- ✅ Nie ma niespodzianek po aktualizacjach ESPHome
+- ✅ Możesz powrócić do starszych wydań
+
+### Jak zaktualizować wersję ESPHome
+
+1. Sprawdź dostępne wersje: https://github.com/esphome/esphome/releases
+2. Edytuj `docker-compose.yml` i zmień numer wersji
+3. Zrestartuj kontener w Gitpod
+
+
+
+---
 ## ⚠️ Ważne ograniczenia
 
 ### 🚫 Flashowanie NIE JEST MOŻLIWE bezpośrednio z ONA (Gitpod)
@@ -137,29 +165,6 @@ Po pobraniu pliku `.bin` z Gitpod, flashowanie wykonaj lokalnie jedną z metod:
 pip install esptool
 esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 ```
-
----
-
-## 📌 Przypięcie wersji ESPHome (WAŻNE)
-
-Ten projekt **NIE używa obrazów `latest` ani `stable`**.
-
-Zamiast tego wersja ESPHome jest jawnie określona w pliku `docker-compose.yml`:
-
-```yaml
-image: ghcr.io/esphome/esphome:2025.12.2
-```
-
-Dzięki temu:
-- ✅ Kompilacje są **powtarzalne**
-- ✅ Nie ma niespodzianek po aktualizacjach ESPHome
-- ✅ Możesz powrócić do starszych wydań
-
-### Jak zaktualizować wersję ESPHome
-
-1. Sprawdź dostępne wersje: https://github.com/esphome/esphome/releases
-2. Edytuj `docker-compose.yml` i zmień numer wersji
-3. Zrestartuj kontener w Gitpod
 
 ---
 
