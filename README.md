@@ -7,7 +7,7 @@ To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboa
 
 **Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml.**
 
-**Możesz konwersować z asystentem AI, który zmieni to za Ciebie w locie.**
+**Możesz konwersować z Agentem AI, który zmieni to za Ciebie w locie.**
 
 Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który już Cię nie ograniczy.
 
