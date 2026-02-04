@@ -222,9 +222,9 @@ Pełna licencja: https://opensource.org/licenses/MIT
 ---
 
 ## 🙏 Podziękowania
-
+- **[@benzino77](https://github.com/benzino77)** - za inspirację poprzez jego świetny projekt [tasmocompiler](https://github.com/benzino77/tasmocompiler)
 - **[ESPHome Team](https://esphome.io)** - za fantastyczne narzędzie do programowania ESP32/ESP8266
-- **[Ona](https://ona.com)** (dawniej Gitpod) - za darmową platformę cloud development z AI
+- **[Ona](https://ona.com)** (dawniej Gitpod) - za świetną i darmową platformę cloud development
 - **[Jason2866](https://github.com/Jason2866/ESP_Flasher)** - za ESP_Flasher
 - **Społeczność ESPHome i Home Assistant** - za nieustającą pomoc w duchu open source
 
