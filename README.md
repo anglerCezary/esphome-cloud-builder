@@ -95,7 +95,7 @@ api:
 
 ota:
 ```
-Możesz w trakcie korzystając narzędzi deweloperskich platformy.
+Możesz w trakcie korzystać z narzędzi deweloperskich platformy.
 
 ### 4. Skompiluj firmware
 
@@ -197,7 +197,7 @@ esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 
 
 
-### Zapytaj AI na czacie jeśli napotkasz inne problemy (błędy kompilacji, skłądni kodu). Podpowie co należy zmienić.
+### Zapytaj AI na czacie jeśli napotkasz inne problemy (błędy kompilacji, składni kodu). Podpowie co należy zmienić.
 
 ---
 **MIT License** - używaj swobodnie!
@@ -226,6 +226,6 @@ Pełna licencja: https://opensource.org/licenses/MIT
 - **[ESPHome Team](https://esphome.io)** - za fantastyczne narzędzie do programowania ESP32/ESP8266
 - **[Ona](https://ona.com)** (dawniej Gitpod) - za darmową platformę cloud development z AI
 - **[Jason2866](https://github.com/Jason2866/ESP_Flasher)** - za ESP_Flasher
-- **Społeczność ESPHome i Home Assistant** - za nieustającą pomoc w duchu open sorce
+- **Społeczność ESPHome i Home Assistant** - za nieustającą pomoc w duchu open source
 
 ---
