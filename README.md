@@ -179,11 +179,10 @@ Dzięki temu:
 
 ## 🛠️ Rozwiązywanie problemów
 
-### Dashboard się nie otwiera automatycznie
-### Kompilacja się nie udaje
-### Chcę użyć nowszej wersji ESPHome
+## Strona z Dashboard ESPHome się nie otwiera.
+<img width="1880" height="865" alt="image" src="https://github.com/user-attachments/assets/bf8e0e71-3fa4-4edd-9013-a5cfb27eb2fb" />
 
-## Zapytaj AI na czacie, napewno podpowie co zmienić
+## Zapytaj AI na czacie jaśli napotkasz inne problemy (błędy kompilacji, skłądni kodu), podpowie co należy zmienić.
 
 ---
 
