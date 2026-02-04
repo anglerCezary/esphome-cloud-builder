@@ -163,19 +163,23 @@ Dzięki temu:
 
 ---
 
-## 💡 Dla kogo jest to rozwiązanie
+## 💡 Dla kogo jest to rozwiązanie?
 
 ### ✅ Idealne dla:
-- Osób ze **słabym sprzętem** (kompilacja w chmurze) - 4 cores, 16GB RAM, 80GB disk
-- Kompilacji na **Chromebooku** lub **tablecie**
-- Uczenia się ESPHome bez instalacji
-- Walidacji konfiguracji YAML, nauka ze wsparciem AI
+- 🖥️ Osób ze **słabym sprzętem** (Chromebook, tablet, stary laptop)
+- 🎓 **Nauki ESPHome** bez skomplikowanej instalacji
+- ✅ **Walidacji konfiguracji** YAML
+- 🔄 Testowania **różnych wersji** ESPHome
+- 👥 **Zespołów** - wszyscy używają tej samej wersji
+- 🌍 Pracy **z dowolnego urządzenia** z przeglądarką
 
 ### ❌ NIE zastąpi:
-- Bezpośredniego flashowania urządzeń (potrzebujesz dodatkowo ESP_Flasher lub podobne narzędzie)
+- Flashowania przez USB/OTA (potrzebujesz ESP_Flasher lub podobny)
 - Pełnej integracji z Home Assistant
+- Lokalnego ESPHome z auto-flashowaniem
 
 ---
+
 
 ## 🛠️ Rozwiązywanie problemów
 
