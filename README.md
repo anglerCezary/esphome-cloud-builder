@@ -1,19 +1,19 @@
 # ESPHome Cloud Builder 
-## W dowolnej wersji wydania dzięki platformie ONA
+## Kompiluj przez Internet w dowolnej wersji wydania, dzięki platformie ONA
 https://ona.com/stories/gitpod-is-now-ona
 
 
-To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod)**
+To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod).**
 
-**Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml lub chatując z asystentem AI, który zmieni to za Ciebie w kodzie**.
+**Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml lub czatując z asystentem AI, który zmieni to za Ciebie w locie.**
 
-Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który może być za słaby.
+Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który już Cię nie ograniczy.
 
 ---
 
 ## 🤔 Co to jest platforma Ona (dawniej Gitpod)?
 
-**platforma Ona Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI**
+**Platforma Ona Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI.**
 
 Wyobraź sobie, że:
 - Klikasz link w przeglądarce
@@ -22,7 +22,8 @@ Wyobraź sobie, że:
 - Wszystko działa w przeglądarce (Chrome, Firefox, Edge) 
 
 **Nie musisz:**
-- ❌ Instalować ESPHome na swoim komputerze, cza też mieć Homa Assistant
+- ❌ Instalować ESPHome na swoim komputerze
+- ❌ Posiadać instancji Home Assistant
 - ❌ Instalować Pythona, Docker, czy innych narzędzi
 - ❌ Martwić się o system operacyjny (działa na Windows, Mac, Linux, ChromeOS)
 - ❌ Mieć mocnego komputera (kompilacja odbywa się w chmurze)
