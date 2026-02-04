@@ -197,7 +197,7 @@ esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 
 
 
-### Zapytaj AI na czacie jaśli napotkasz inne problemy (błędy kompilacji, skłądni kodu). Podpowie co należy zmienić.
+### Zapytaj AI na czacie jeśli napotkasz inne problemy (błędy kompilacji, skłądni kodu). Podpowie co należy zmienić.
 
 ---
 **MIT License** - używaj swobodnie!
