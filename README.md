@@ -93,7 +93,7 @@ api:
 
 ota:
 ```
-Korzystając z narzędzi deweloperskich platformy 
+Możesz korzystając z narzędzi wielu deweloperskich platformy.
 
 ### 4. Skompiluj firmware
 
@@ -153,7 +153,7 @@ image: ghcr.io/esphome/esphome:2025.12.2
 Dzięki temu:
 - ✅ Kompilacje są **powtarzalne**
 - ✅ Nie ma niespodzianek po aktualizacjach ESPHome
-- ✅ Możesz powrócić do starszych wydań dla **identyczny firmware**
+- ✅ Możesz powrócić do starszych wydań
 
 ### Jak zaktualizować wersję ESPHome
 
@@ -169,7 +169,7 @@ Dzięki temu:
 - Osób ze **słabym sprzętem** (kompilacja w chmurze) - 4 cores, 16GB RAM, 80GB disk
 - Kompilacji na **Chromebooku** lub **tablecie**
 - Uczenia się ESPHome bez instalacji
-- Walidacji konfiguracji YAML
+- Walidacji konfiguracji YAML, nauka ze wsparciem AI
 
 ### ❌ NIE zastąpi:
 - Bezpośredniego flashowania urządzeń (potrzebujesz dodatkowo ESP_Flasher lub podobne narzędzie)
