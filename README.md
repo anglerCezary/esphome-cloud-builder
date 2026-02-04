@@ -114,7 +114,7 @@ Zamiast tego wersja ESPHome jest jawnie określona w pliku `docker-compose.yml`:
 ```yaml
 image: ghcr.io/esphome/esphome:2025.12.2
 ```
-## 👥 Nie czujesz się na siłach aby zmieniać plik `docker-compose.yml`? Nic nie szkodzi, napisz Agentowi AI co ma zrobić za Ciebie:
+### 👥 Nie czujesz się na siłach aby zmieniać plik `docker-compose.yml`? Nic nie szkodzi, napisz Agentowi AI co ma zrobić za Ciebie:
 <img width="1904" height="865" alt="image" src="https://github.com/user-attachments/assets/f45b01fe-eeb9-4508-a791-08b1f14fcfbd" />
 
 
