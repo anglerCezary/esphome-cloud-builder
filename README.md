@@ -143,9 +143,9 @@ Dzięki temu:
 ---
 ## ⚠️ Ważne ograniczenia
 
-### 🚫 Flashowanie NIE JEST MOŻLIWE bezpośrednio z ONA (Gitpod)
+### 🚫 Flashowanie NIE JEST MOŻLIWE bezpośrednio
 
-**ONA/Gitpod działa w chmurze** i **nie ma dostępu** do:
+**ESPHome (kontener) działa w chmurze** i **nie ma dostępu** do:
 - Twoich lokalnych portów USB (gdzie podłączasz ESP32/ESP8266)
 - Twojej sieci lokalnej (gdzie działają urządzenia ESP po WiFi)
 
