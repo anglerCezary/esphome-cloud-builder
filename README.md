@@ -1,21 +1,22 @@
 # ESPHome Cloud Builder 
-## Kompiluj w chmurze dla dowolnej wersji wydania, dzięki platformie ONA
-https://ona.com/stories/gitpod-is-now-ona
+## Kompiluj w chmurze dla dowolnej wersji wydania, dzięki platformom cloud development
 
 
-To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki **Ona (dawniej Gitpod).**
+
+To repozytorium udostępnia możliwość łatwego uruchomienia **ESPHome Dashboard działający w przeglądarce**, dzięki Docker + devcontainers działającym w chmurze.
 
 **Możesz wybrać konkretną wersją wydania ESPHome edytując plik docker-compose.yml.**
 
-**Możesz konwersować z Agentem AI, który zmieni to za Ciebie w locie.**
+**Możesz konwersować z Agentem AI, który pomoże Tobie w locie.**
 
 Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmware**, niezależnych od aktualnego wydania ESPHome oraz sprzętu, który już Cię nie ograniczy.
 
 ---
 
-## 🤔 Co to jest platforma Ona (dawniej Gitpod)?
+## 🤔 Co to jest platforma cloud development
+Odkryłem ją dzieki Gitpod i projektowi [tasmocompiler](https://github.com/benzino77/tasmocompiler)
 
-**Platforma Ona Gitpod to taki komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI.**
+**Taka platforma to komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI.**
 
 Wyobraź sobie, że:
 - Klikasz link w przeglądarce
@@ -32,10 +33,10 @@ Wyobraź sobie, że:
 
 **Wystarczy:**
 - ✅ Przeglądarka internetowa
-- ✅ Darmowe konto na Gitpod (logowanie przez GitHub/GitLab/Bitbucket)
+- ✅ Darmowe konto na wybranej platformie (GitHub Codespaces; OMA)
 - ✅ Połączenie z internetem
 
-To jak mieć **tymczasowy komputer do wynajęcia za darmo**, który znika po zakończeniu pracy.
+To jak mieć **tymczasowy komputer do wynajęcia**, który znika po zakończeniu pracy.
 
 ---
 
@@ -43,7 +44,7 @@ To jak mieć **tymczasowy komputer do wynajęcia za darmo**, który znika po zak
 
 - ESPHome uruchamiany jest wewnątrz oficjalnego kontenera Docker
 - Obraz kontenera jest przypięty do **konkretnej wersji ESPHome**
-- ONA/Gitpod automatycznie uruchamia kontener z przypisanym portem 6052
+- W Codespaces/ONA automatycznie uruchamia się kontener z przypisanym portem 6052
 - ESPHome Dashboard jest dostępny w przeglądarce internetowej 
 - Firmware kompilowany jest **w całości w chmurze**
 
@@ -53,7 +54,12 @@ Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do intern
 
 ## 📖 Jak używać
 
-### 1. Uruchom środowisko w Ona/Gitpod
+### 1. Uruchom środowisko w GitHub Codespaces
+
+
+
+
+### 2. Uruchom środowisko w Ona/Gitpod
 
 Kliknij poniższy przycisk lub otwórz link w przeglądarce:
 
@@ -114,8 +120,6 @@ Zamiast tego wersja ESPHome jest jawnie określona w pliku `docker-compose.yml`:
 ```yaml
 image: ghcr.io/esphome/esphome:2025.12.2
 ```
-### 👥 Nie czujesz się na siłach aby zmieniać plik `docker-compose.yml`? Nic nie szkodzi, napisz Agentowi AI co ma zrobić za Ciebie:
-<img width="1904" height="865" alt="image" src="https://github.com/user-attachments/assets/f45b01fe-eeb9-4508-a791-08b1f14fcfbd" />
 
 
 
@@ -128,8 +132,12 @@ Dzięki temu:
 
 1. Sprawdź dostępne wersje: https://github.com/esphome/esphome/releases
 2. Edytuj `docker-compose.yml` i zmień numer wersji
-3. Zrestartuj kontener w Gitpod
+3. Zrestartuj kontener w terminalu `docker compose down && docker compose pull && docker compose up -d`
+### 👥 Nie czujesz się na siłach aby zmieniać plik `docker-compose.yml`? Nic nie szkodzi, napisz Agentowi AI co ma zrobić za Ciebie:
+<img width="1904" height="865" alt="image" src="https://github.com/user-attachments/assets/f45b01fe-eeb9-4508-a791-08b1f14fcfbd" />
 
+
+<img width="1918" height="923" alt="image" src="https://github.com/user-attachments/assets/69e2156a-1331-41c6-93a3-38ca3adeeffe" />
 
 
 ---
@@ -194,6 +202,7 @@ esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d06eb8ed-a78d-41cf-bb81-ffa6bd0c3b84" />
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/69dc4bdb-41c8-4f19-a0c8-f02e94fb301e" />
 
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/b1770a48-8f74-4d88-a056-821d1e0761bf" />
 
 
 
@@ -224,7 +233,6 @@ Pełna licencja: https://opensource.org/licenses/MIT
 ## 🙏 Podziękowania
 - **[@benzino77](https://github.com/benzino77)** - za inspirację poprzez jego świetny projekt [tasmocompiler](https://github.com/benzino77/tasmocompiler)
 - **[ESPHome Team](https://esphome.io)** - za fantastyczne narzędzie do programowania ESP32/ESP8266
-- **[Ona](https://ona.com)** (dawniej Gitpod) - za świetną i darmową platformę cloud development
 - **[Jason2866](https://github.com/Jason2866/ESP_Flasher)** - za ESP_Flasher
 - **Społeczność ESPHome i Home Assistant** - za nieustającą pomoc w duchu open source
 
