@@ -55,6 +55,8 @@ Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do intern
 ## 📖 Jak używać
 
 ### 1. Uruchom środowisko w GitHub Codespaces
+<img width="1902" height="920" alt="image" src="https://github.com/user-attachments/assets/697140ab-390e-4d05-9f63-8b75f5727ec1" />
+
 
 
 
@@ -72,8 +74,8 @@ https://gitpod.io/#https://github.com/Cezar8421/esphome-gitpod
 
 ### 2. Poczekaj na uruchomienie
 
-Gitpod automatycznie:
-- Pobierze obraz Docker z ESPHome
+Automatycznie:
+- Pobierze się obraz Docker z ESPHome
 - Uruchomi kontener
 - Pozwoli na otwarcie strony z ESPHome Dashboard w przeglądarce pod wskazanym portem
 
@@ -197,7 +199,7 @@ esptool.py --port /dev/ttyUSB0 write_flash 0x0 firmware.bin
 
 ## 🛠️ Rozwiązywanie problemów
 
-## Strona z Dashboard ESPHome się nie otwiera.
+## Strona z Dashboard ESPHome się nie otwiera w środowisku ONA
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/bf8e0e71-3fa4-4edd-9013-a5cfb27eb2fb" />
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d06eb8ed-a78d-41cf-bb81-ffa6bd0c3b84" />
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/69dc4bdb-41c8-4f19-a0c8-f02e94fb301e" />
