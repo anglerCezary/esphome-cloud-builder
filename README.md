@@ -56,6 +56,8 @@ Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do intern
 
 ### 1. Uruchom środowisko w GitHub Codespaces
 <img width="1902" height="920" alt="image" src="https://github.com/user-attachments/assets/697140ab-390e-4d05-9f63-8b75f5727ec1" />
+<img width="1916" height="920" alt="image" src="https://github.com/user-attachments/assets/9742f883-eeaa-494a-b31f-8d512443fe3a" />
+
 
 
 
