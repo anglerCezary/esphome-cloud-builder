@@ -73,11 +73,11 @@ https://gitpod.io/#https://github.com/Cezar8421/esphome-gitpod
 ### 2. Poczekaj na uruchomienie
 
 Automatycznie:
-- Pobierze się obraz Docker z ESPHome
-- Uruchomi kontener
+- Pobierze się obraz Docker z ESPHome (v 2025.12.2)
+- Uruchomi kontener z mapowaniem voluminu `/esphome`
 - Pozwoli na otwarcie strony z ESPHome Dashboard w przeglądarce pod wskazanym portem
 
-#### 3. Dodaj posiadane już pliki YAML do katalogu `esphome/`.
+#### 3. Dodaj posiadane już pliki YAML do katalogu `esphome/` (działa drag & drop)
 
 Lub
 
