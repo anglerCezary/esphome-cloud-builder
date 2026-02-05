@@ -14,7 +14,7 @@ Celem jest zapewnienie **łatwych, powtarzalnych i stabilnych kompilacji firmwar
 ---
 
 ## 🤔 Co to jest platforma cloud development
-Odkryłem ją dzieki Gitpod i projektowi [tasmocompiler](https://github.com/benzino77/tasmocompiler)
+Odkryłem ją (dawno temu) dzieki Gitpod i projektowi [tasmocompiler](https://github.com/benzino77/tasmocompiler)
 
 **Taka platforma to komputer w chmurze, którego obsługa działa w przeglądarce. Ale to też dużo więcej, to całe środowisko programistyczne ze wsparciem AI.**
 
