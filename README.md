@@ -59,10 +59,6 @@ Nie jest wymagana żadna lokalna instalacja ESPHome, wystarczy dostęp do intern
 <img width="1916" height="920" alt="image" src="https://github.com/user-attachments/assets/9742f883-eeaa-494a-b31f-8d512443fe3a" />
 
 
-
-
-
-
 ### 2. Uruchom środowisko w Ona/Gitpod
 
 Kliknij poniższy przycisk lub otwórz link w przeglądarce:
